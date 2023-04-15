@@ -9,11 +9,9 @@ import image from "assets/img/banner-bg.png"
 // views
 
 import Dashboard from "views/admin/Dashboard.js";
-import Maps from "views/admin/Maps.js";
 import Settings from "views/admin/Settings.js";
 import Tables from "views/admin/Tables.js";
 import Landing from "views/admin/Landing.js";
-import Profile from "views/admin//Profile.js";
 
 export default function Admin() {
   return (
@@ -28,11 +26,9 @@ export default function Admin() {
 
           <Switch>
             <Route path="/admin/dashboard" exact component={Dashboard} />
-            <Route path="/admin/maps" exact component={Maps} />
             <Route path="/admin/settings" exact component={Settings} />
             <Route path="/admin/tables" exact component={Tables} />
             <Route path="/admin/landing" exact component={Landing} />
-            <Route path="/admin/profile" exact component={Profile} />
             <Redirect from="/admin" to="/admin/dashboard" />
           </Switch>
         </div>
