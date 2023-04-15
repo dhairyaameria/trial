@@ -6,11 +6,11 @@ import CardLineChart from "components/Cards/CardLineChart.js";
 import CardBarChart from "components/Cards/CardBarChart.js";
 import CardPageVisits from "components/Cards/CardPageVisits.js";
 import CardSocialTraffic from "components/Cards/CardSocialTraffic.js";
-import Sidebar from "components/Navbars/Sidebar.js";
+
 export default function Dashboard() {
   return (
     <>
-      <Sidebar />
+      
       <div className="flex flex-wrap">
         <div className="w-full xl:w-full mb-12 xl:mb-0">
           <HeaderStats />
