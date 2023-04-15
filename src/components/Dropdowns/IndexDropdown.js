@@ -20,7 +20,7 @@ const IndexDropdown = () => {
     <>
        
       <a
-        className="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+        className="hover:text-blueGray-500 text-white px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
         href="#pablo"
         ref={btnDropdownRef}
         onClick={(e) => {
@@ -30,38 +30,38 @@ const IndexDropdown = () => {
       >
         <Link
           to="/admin/dashboard"
-          className="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+          className="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-white"
         >
           Dashboard
         </Link>
         <Link
           to="/admin/settings"
-          className="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+          className="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-white"
         >
           Settings
         </Link>
         <Link
           to="/admin/tables"
-          className="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+          className="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-white"
         >
           Tables
         </Link>
         <Link
           to="/admin/maps"
-          className="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+          className="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-white"
         >
           Maps
         </Link>
       
         <Link
           to="/admin/landing"
-          className="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+          className="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-white"
         >
           Landing
         </Link>
         <Link
           to="/admin/profile"
-          className="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+          className="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-white"
         >
           Profile
         </Link>
@@ -75,25 +75,25 @@ const IndexDropdown = () => {
       >
         <Link
           to="/admin/dashboard"
-          className="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+          className="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-white"
         >
           Dashboard
         </Link>
         <Link
           to="/admin/settings"
-          className="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+          className="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-white"
         >
           Settings
         </Link>
         <Link
           to="/admin/tables"
-          className="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+          className="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-white"
         >
           Tables
         </Link>
         <Link
           to="/admin/maps"
-          className="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+          className="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-white"
         >
           Maps
         </Link>
@@ -101,13 +101,13 @@ const IndexDropdown = () => {
       
         <Link
           to="/landing"
-          className="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+          className="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-white"
         >
           Landing
         </Link>
         <Link
           to="/profile"
-          className="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+          className="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-white"
         >
           Profile
         </Link>
